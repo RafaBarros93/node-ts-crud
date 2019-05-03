@@ -32,7 +32,7 @@ class UserController {
             {
                 $set: {
                     email: req.body.email,
-                    fisrtNmae: req.body.fisrtNmae,
+                    fisrtName: req.body.fisrtNmae,
                     lastName: req.body.lastName
                 }
             }
