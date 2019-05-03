@@ -4,7 +4,7 @@ import UserInterface from "../interfaces/UserInterface";
 const UserSchema = new Schema(
     {
         email: String,
-        fisrtNmae: String,
+        fisrtName: String,
         lastName: String
     },
     { timestamps: true }
